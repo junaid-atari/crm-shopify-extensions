@@ -24,7 +24,7 @@
     "dotenv": "^16.4.7"
   },
   "devDependencies": {
-    "@shopify/cli": "latest"
+    "@shopify/cli": "^3.74.1"
   },
   "trustedDependencies": [
     "@shopify/plugin-cloudflare"
