@@ -28,7 +28,7 @@ Extension generated [send-self-mailer]: 'extensions/send-self-mailer/shopify.ext
 Done in 0.34s.
 ```
 
-6. Run `yarn deploy` to deploy the extensions.
+6. Run `yarn shopify:deploy` to deploy the extensions.
 
 ## References
 
