@@ -1,5 +1,7 @@
 # Shopify Flow Extension Generator
 
+![image](https://github.com/user-attachments/assets/eacb8ff9-5a96-4026-93e7-c44f8f12073c)
+
 ## Prerequisites
 - Runtime: NodeJs v23.5+
 - Package Manager: Yarn
