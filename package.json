@@ -1,0 +1,41 @@
+{
+  "name": "openletterconnect",
+  "version": "0.0.1",
+  "author": {
+    "name": "Junaid Atari",
+    "email": "junaid@openletterconnect.com",
+    "url": "https://github.com/blacksmoke26"
+  },
+  "type": "module",
+  "release": false,
+  "scripts": {
+    "shopify": "shopify",
+    "shopify:build": "shopify app build",
+    "shopify:dev": "shopify app dev",
+    "shopify:info": "shopify app info",
+    "shopify:generate": "shopify app generate",
+    "shopify:deploy": "shopify app deploy",
+    "render":"node src/index.js",
+    "deploy":"npm run render && npm run shopify:deploy"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.4",
+    "object-path": "^0.11.8",
+    "deepmerge": "^4.3.1",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@shopify/cli": "latest"
+  },
+  "trustedDependencies": [
+    "@shopify/plugin-cloudflare"
+  ],
+  "private": true,
+  "workspaces": [
+    "extensions/*"
+  ],
+  "engines": {
+    "node": ">23.5"
+  }
+}

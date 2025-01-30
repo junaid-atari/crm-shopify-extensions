@@ -1,0 +1,7 @@
+{
+  "handle": "send-snap-pack-mailer",
+  "name": "Send Snap Pack Mailer",
+  "description": "Create and mail a snap pack mailer using Open Letter Connect.",
+  "templatePath": "{{srcPath}}/templates/shopify-extension.njk",
+  "targetPath": "{{rootPath}}/extensions/{{handle}}/shopify.extension.toml"
+}

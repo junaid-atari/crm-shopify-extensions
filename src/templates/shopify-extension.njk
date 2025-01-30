@@ -1,0 +1,19 @@
+[[extensions]]
+name = "{{ name }}"
+handle = "{{ handle }}"
+type = "flow_action"
+
+description = "{{ description }}"
+# the target server to send the payload
+runtime_url = "{{ runtimeUrl }}"
+
+# An endpoint that validates the contents of custom fields in an action payload when an action is saved. This endpoint is required if you want to use a custom configuration page.
+validation_url = "{{ validationUrl }}"
+
+config_page_url = "{{ configPageUrl }}"
+config_page_preview_url = "{{ configPagePreviewUrl }}"
+
+[settings]
+[[settings.fields]]
+type = "customer_reference"
+required = true
